@@ -1,0 +1,22 @@
+@import "core";
+
+body{
+    width: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: $BgColor;
+    
+}
+
+.logo-container{
+    width: 162px;
+    border: 2px solid red;
+}
+
+.logo{
+    width: 100%;
+    
+}

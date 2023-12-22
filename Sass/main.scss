@@ -1,7 +1,9 @@
+@use "header";
 @import "variable";
 
 body{
-    width: 100%;
+    display: flex;
+    justify-content: center;
     margin: 0px;
 }
 

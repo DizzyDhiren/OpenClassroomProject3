@@ -1,6 +1,7 @@
 @import "core";
 
 body{
+<<<<<<< Updated upstream
     width: 100%;
 }
 
@@ -20,3 +21,15 @@ header{
     width: 100%;
     
 }
+=======
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+
+.main_container{
+    min-width: 375px;
+    max-width: 1440px;
+}
+>>>>>>> Stashed changes

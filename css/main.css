@@ -1,4 +1,38 @@
-body {
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  padding: 14px 0px 13px 0px;
   width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+  width: 162px;
+  max-width: 200px;
+}
+
+.location-container {
+  background-color: #EAEAEA;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  z-index: -1;
+}
+
+body {
+  display: flex;
+  justify-content: center;
   margin: 0px;
+}
+
+.main-container {
+  width: 875px;
+  max-width: 1440px;
 }/*# sourceMappingURL=main.css.map */

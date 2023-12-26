@@ -1,0 +1,37 @@
+@import "variable";
+@import "box-shadow";
+
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+    
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+    padding: 14px 0px 13px 0px;
+    width: 100%;
+    
+    
+    background-color: $BgColor;
+    box-shadow: $box-shadow
+}
+
+.logo{
+    width: 162px;
+    max-width: 200px;
+    
+}
+
+.location-container{
+    background-color: $grey2Color;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    z-index: -1;
+
+}

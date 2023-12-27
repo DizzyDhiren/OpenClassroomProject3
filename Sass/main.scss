@@ -1,35 +1,15 @@
-@import "core";
+@use './components/header';
+@import "./components/variable";
+
 
 body{
-<<<<<<< Updated upstream
-    width: 100%;
-}
-
-header{
-    display: flex;
-    justify-content: center;
-    background-color: $BgColor;
-    
-}
-
-.logo-container{
-    width: 162px;
-    border: 2px solid red;
-}
-
-.logo{
-    width: 100%;
-    
-}
-=======
     display: flex;
     justify-content: center;
     margin: 0px;
 }
 
-
-.main_container{
+.main-container{
+    width: 100%;
     min-width: 375px;
     max-width: 1440px;
 }
->>>>>>> Stashed changes

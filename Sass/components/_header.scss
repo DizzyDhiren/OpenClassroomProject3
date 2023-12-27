@@ -1,0 +1,40 @@
+@import "./variable";
+@import "./box-shadow";
+@import "./font-style";
+
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+    padding: 14px 0px 13px 0px;
+    width: 100%;
+    
+    
+    background-color: $BgColor;
+    box-shadow: $box-shadow
+}
+
+.logo{
+    width: 162px;
+    max-width: 200px;
+    
+}
+
+.location-container{
+    display: flex;
+    gap: 17px;
+    justify-content: center;
+    background-color: $grey2Color;
+    color: $grey-heading-color;
+    padding: 10px;
+    width: 100%;
+    z-index: -1;
+
+}
+

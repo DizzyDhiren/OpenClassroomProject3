@@ -7,8 +7,6 @@ header{
     align-items: center;
     flex-direction: column;
     
-    
-    
 }
 
 .logo-container{
@@ -29,10 +27,14 @@ header{
 }
 
 .location-container{
+    display: flex;
+    gap: 17px;
+    justify-content: center;
     background-color: $grey2Color;
+    color: $grey-heading-color;
     padding: 10px;
     width: 100%;
-    text-align: center;
     z-index: -1;
 
 }
+

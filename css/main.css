@@ -36,11 +36,19 @@ header {
   z-index: -1;
 }
 
+.text-styles {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+
 body {
   display: flex;
   justify-content: center;
-  margin: 0px;
+  margin: 10px;
   background-color: #F6F6F6;
+  font-family: Roboto;
 }
 
 .main-container {

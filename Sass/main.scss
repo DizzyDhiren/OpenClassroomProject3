@@ -1,12 +1,14 @@
 @use './components/header';
 @import "./components/variable";
+@import "./components/font-style";
 
 
 body{
     display: flex;
     justify-content: center;
-    margin: 0px;
+    margin: 10px;
     background-color: $secondaryBgColor;
+    font-family: $font-style-text;
 }
 
 .main-container{

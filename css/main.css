@@ -4,6 +4,12 @@
   font-weight: 500;
 }
 
+.section-header-text-style {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+}
+
 header {
   display: flex;
   justify-content: center;
@@ -48,6 +54,12 @@ header {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
+}
+
+.section-header-text-style {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 body {

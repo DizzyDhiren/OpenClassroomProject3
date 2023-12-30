@@ -17,6 +17,12 @@ $font-sizes:(
 
 .text-styles{
     font-family: $font-style-text;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: map-get($font-sizes , normal );
+    font-weight: map-get($font-weights , regular );
+}
+
+.section-header-text-style{
+    font-family: $font-style-text;
+    font-size: map-get($font-sizes , section-header );
+    font-weight: map-get($font-weights , bold );
 }

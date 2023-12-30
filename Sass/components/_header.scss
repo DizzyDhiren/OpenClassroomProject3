@@ -1,17 +1,16 @@
 @import "./variable";
 @import "./box-shadow";
 @import "./font-style";
+@import "./mixins";
 
 header{
-    display: flex;
-    align-items: center;
+    @include flex-center;
     flex-direction: column;
     
 }
 
 .logo-container{
-    display: flex;
-    justify-content: center;
+    @include flex-center;
     padding: 14px 0px 13px 0px;
     width: 100%;
     
@@ -27,9 +26,8 @@ header{
 }
 
 .location-container{
-    display: flex;
+    @include flex-center;
     gap: 17px;
-    justify-content: center;
     background-color: $grey2Color;
     color: $grey-heading-color;
     padding: 10px;

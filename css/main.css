@@ -6,6 +6,7 @@
 
 header {
   display: flex;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
@@ -13,6 +14,7 @@ header {
 .logo-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 14px 0px 13px 0px;
   width: 100%;
   background-color: #ffffff;
@@ -26,13 +28,20 @@ header {
 
 .location-container {
   display: flex;
-  gap: 17px;
   justify-content: center;
+  align-items: center;
+  gap: 17px;
   background-color: #EAEAEA;
   color: #353535;
   padding: 10px;
   width: 100%;
   z-index: -1;
+}
+
+.brief-description-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .text-styles {
@@ -44,6 +53,7 @@ header {
 body {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 10px;
   background-color: #F6F6F6;
   font-family: Roboto;

@@ -1,14 +1,16 @@
 @use './components/header';
+@use    './components/brief-description';
 @import "./components/variable";
 @import "./components/font-style";
+@import "./components/mixins";
 
 
 body{
-    display: flex;
-    justify-content: center;
+    @include flex-center;
     margin: 10px;
     background-color: $secondaryBgColor;
     font-family: $font-style-text;
+    
 }
 
 .main-container{

@@ -2,6 +2,19 @@
 
 $font-style-text: Roboto;
 
+$font-weights: (
+    "thin":300,
+    "regular":500,
+    "bold": 700
+);
+
+$font-sizes:(
+    "normal":16px,
+    "restaurant-location": 17px,
+    "tagline":18px,
+    "section-header": 24px
+);
+
 .text-styles{
     font-family: $font-style-text;
     font-size: 16px;

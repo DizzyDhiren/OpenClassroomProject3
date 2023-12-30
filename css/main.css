@@ -1,4 +1,4 @@
-.text-styles {
+.normal-text-styles {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
@@ -8,6 +8,12 @@
   font-family: Roboto;
   font-size: 24px;
   font-weight: 700;
+}
+
+.tagline-text-style {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 header {
@@ -50,7 +56,7 @@ header {
   align-items: center;
 }
 
-.text-styles {
+.normal-text-styles {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
@@ -60,6 +66,12 @@ header {
   font-family: Roboto;
   font-size: 24px;
   font-weight: 700;
+}
+
+.tagline-text-style {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 body {

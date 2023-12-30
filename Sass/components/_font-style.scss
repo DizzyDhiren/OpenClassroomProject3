@@ -15,7 +15,7 @@ $font-sizes:(
     "section-header": 24px
 );
 
-.text-styles{
+.normal-text-styles{
     font-family: $font-style-text;
     font-size: map-get($font-sizes , normal );
     font-weight: map-get($font-weights , regular );
@@ -25,4 +25,10 @@ $font-sizes:(
     font-family: $font-style-text;
     font-size: map-get($font-sizes , section-header );
     font-weight: map-get($font-weights , bold );
+}
+
+.tagline-text-style{
+    font-family: $font-style-text;
+    font-size: map-get($font-sizes , tagline );
+    font-weight: map-get($font-weights , thin );
 }

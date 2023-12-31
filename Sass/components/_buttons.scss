@@ -3,5 +3,13 @@
 @import "./mixins";
 
 .explore-menu{
+    @include flex-center;
+    width: 218px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: $primaryColor;
     
+    text-decoration: none;
+    color: $BgColor;
+
 }

@@ -1,9 +1,10 @@
 //Under header - Brief Description
+@import "./mixins";
+
 
 .brief-description-container{
-    display: flex;
+    @include flex-center;
     flex-direction: column;
-    align-items: center;
 }
 
 .tagline{ //look into nestign this in ^^^

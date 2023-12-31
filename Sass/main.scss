@@ -1,8 +1,10 @@
 @use    './components/header';
+@use    "./components/buttons";
 @use    './components/brief-description';
 @import "./components/variable";
 @import "./components/font-style";
 @import "./components/mixins";
+
 
 
 body{

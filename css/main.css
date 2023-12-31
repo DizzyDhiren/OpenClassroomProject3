@@ -56,6 +56,11 @@ header {
   align-items: center;
 }
 
+.tagline {
+  margin: 0px;
+  text-align: center;
+}
+
 .normal-text-styles {
   font-family: Roboto;
   font-size: 16px;

@@ -56,8 +56,10 @@ header {
   align-items: center;
   width: 218px;
   height: 50px;
+  margin-bottom: 50px;
   border-radius: 25px;
-  background: linear-gradient(193deg, #FF79DA -11.44%, #9356DC 123.93%);
+  background: linear-gradient(180deg, #FF79DA -11.44%, #9356DC 123.93%);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
   text-decoration: none;
   color: #ffffff;
 }
@@ -72,6 +74,7 @@ header {
 .tagline {
   margin: 0px;
   text-align: center;
+  margin-bottom: 27px;
 }
 
 .normal-text-styles {

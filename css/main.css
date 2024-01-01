@@ -64,17 +64,39 @@ header {
   color: #ffffff;
 }
 
+.how_works-bttn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 322px;
+  height: 72px;
+  background-color: #F6F6F6;
+}
+
 .brief-description-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-
-.tagline {
+.brief-description-container .tagline {
   margin: 0px;
   text-align: center;
   margin-bottom: 27px;
+}
+
+.how_works {
+  background-color: #ffffff;
+  padding: 5px;
+  border: 2px blue solid;
+}
+.how_works-content {
+  border: 2px green solid;
+}
+.how_works-content h2 {
+  margin: 0px;
+  text-align: left;
+  margin-left: 20px;
 }
 
 .normal-text-styles {

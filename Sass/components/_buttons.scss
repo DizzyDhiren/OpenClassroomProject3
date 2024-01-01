@@ -16,3 +16,11 @@
     color: $BgColor;
 
 }
+
+.how_works-bttn{
+    @include flex-center;
+    width: 322px;
+    height: 72px;
+    background-color: $secondaryBgColor;
+    
+}

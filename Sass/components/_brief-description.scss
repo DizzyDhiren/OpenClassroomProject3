@@ -5,10 +5,12 @@
 .brief-description-container{
     @include flex-center;
     flex-direction: column;
-}
-
-.tagline{ //look into nestign this in ^^^
+    
+    
+    .tagline{ 
     margin: 0px;
     text-align: center;
     margin-bottom: 27px;
+    }
 }
+

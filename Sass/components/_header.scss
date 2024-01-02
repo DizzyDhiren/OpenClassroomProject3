@@ -4,13 +4,13 @@
 @import "./mixins";
 
 header{
-    @include flex-center;
+    @include flex-center(column);
     flex-direction: column;
     
 }
 
 .logo-container{
-    @include flex-center;
+    @include flex-center(row);
     padding: 14px 0px 13px 0px;
     width: 100%;
     
@@ -26,7 +26,7 @@ header{
 }
 
 .location-container{
-    @include flex-center;
+    @include flex-center(row);
     gap: 17px;
     background-color: $grey2Color;
     color: $grey-heading-color;

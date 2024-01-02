@@ -9,7 +9,7 @@
 
 
 body{
-    @include flex-center;
+    @include flex-center(column);
     margin: 0px;
     background-color: $secondaryBgColor;
     font-family: $font-style-text;

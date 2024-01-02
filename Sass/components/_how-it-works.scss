@@ -7,15 +7,19 @@
     padding: 5px;  //remove after completed section
     border: 2px blue solid;
 
-    &-content{
-        
-        border: 2px green solid;
-        
-
-        h2{
+    & h2{
             margin: 0px;
             text-align: left;
             margin-left: 20px;
         }
+
+
+    &-content{
+        @include flex-center(column);
+        gap: 25px;
+        border: 2px green solid;
+        
+
+        
     }
 }

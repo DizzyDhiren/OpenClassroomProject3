@@ -3,7 +3,7 @@
 
 
 .brief-description-container{
-    @include flex-center;
+    @include flex-center(column);
     flex-direction: column;
     
     

@@ -2,6 +2,7 @@
 @import "./variable";
 @import "./mixins";
 @import "./box-shadow";
+@import "./font-style";
 
 .explore-menu{
     @include flex-center(row);
@@ -17,6 +18,7 @@
 
 }
 
+//how it works section
 .how_works-bttn{
     display: flex;
     align-items: center;
@@ -29,4 +31,25 @@
 
     text-decoration: none;
     color: black;
+}
+
+.icon{
+    width: 16px;
+   
+    margin-right: 25px; //for gap between icon and text
+    color: $icon-colour;
+}
+
+.num-steps{
+
+height: 15px;
+width: 15px;
+margin-left: -10px;
+margin-right: 25px;
+padding: 4px;
+font-size: map-get($font-sizes, icon );
+text-align: center;
+border-radius: 20px;
+background-color: $primaryColor;
+color: $BgColor;
 }

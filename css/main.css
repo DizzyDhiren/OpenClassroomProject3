@@ -53,6 +53,24 @@ header {
   z-index: -1;
 }
 
+.normal-text-styles {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.section-header-text-style {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.tagline-text-style {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 300;
+}
+
 .explore-menu {
   display: flex;
   justify-content: center;
@@ -78,6 +96,25 @@ header {
   border-radius: 20px;
   text-decoration: none;
   color: black;
+}
+
+.icon {
+  width: 16px;
+  margin-right: 25px;
+  color: #7E7E7E;
+}
+
+.num-steps {
+  height: 15px;
+  width: 15px;
+  margin-left: -10px;
+  margin-right: 25px;
+  padding: 4px;
+  font-size: 14.5px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #9356DC;
+  color: #ffffff;
 }
 
 .brief-description-container {

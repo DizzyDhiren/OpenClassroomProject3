@@ -132,13 +132,13 @@ header {
 
 .how_works {
   background-color: #ffffff;
-  padding: 5px;
-  border: 2px blue solid;
+  height: 440px;
 }
 .how_works h2 {
   margin: 0px;
   text-align: left;
   margin-left: 20px;
+  padding: 35px 0;
 }
 .how_works-content {
   display: flex;
@@ -146,7 +146,9 @@ header {
   align-items: center;
   flex-direction: column;
   gap: 25px;
-  border: 2px green solid;
+}
+.how_works-content .fa-store {
+  color: #9356DC;
 }
 
 .normal-text-styles {

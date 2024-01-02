@@ -4,22 +4,26 @@
 
 .how_works{
     background-color: $BgColor;
-    padding: 5px;  //remove after completed section
-    border: 2px blue solid;
+   
+    height: 440px;
+    
 
     & h2{
             margin: 0px;
             text-align: left;
             margin-left: 20px;
+            padding: 35px 0;
         }
 
 
     &-content{
         @include flex-center(column);
         gap: 25px;
-        border: 2px green solid;
         
-
+        
+        .fa-store{
+            color: $primaryColor;
+        }
         
     }
 }

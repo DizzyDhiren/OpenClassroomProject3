@@ -129,6 +129,9 @@ header {
   text-align: center;
   margin-bottom: 27px;
 }
+.brief-description-container h2 {
+  padding: 15px 0;
+}
 
 .how_works {
   background-color: #ffffff;

@@ -154,6 +154,24 @@ header {
   color: #9356DC;
 }
 
+.restaurant_choice {
+  border: red solid 2px;
+}
+.restaurant_choice h2 {
+  margin: 0px;
+  text-align: left;
+  margin-left: 20px;
+  padding: 35px 0;
+}
+.restaurant_choice-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  border: red solid 2px;
+}
+
 .normal-text-styles {
   font-family: Roboto;
   font-size: 16px;

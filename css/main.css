@@ -154,6 +154,15 @@ header {
   color: #9356DC;
 }
 
+.card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 5px;
+}
+.card img {
+  object-fit: cover;
+}
+
 .restaurant_choice {
   border: red solid 2px;
 }
@@ -170,6 +179,13 @@ header {
   flex-direction: column;
   gap: 25px;
   border: red solid 2px;
+}
+.restaurant_choice-content .card {
+  width: 340px;
+  height: 251px;
+}
+.restaurant_choice-content .card img {
+  height: 231px;
 }
 
 .normal-text-styles {

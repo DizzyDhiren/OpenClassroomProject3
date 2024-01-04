@@ -1,6 +1,7 @@
 //main page restaurants section
 @import "./mixins";
 @import "./variable";
+@import "./card";
 
 
 
@@ -21,5 +22,15 @@
         gap: 25px;
         
         border: $test-outline;
+
+        & .card{
+            width: 340px;
+            height: 251px;
+
+            img{
+                height: 231px;
+            }
+            
+        }
     }
 }

@@ -33,3 +33,15 @@ $font-sizes:(
     font-size: map-get($font-sizes , tagline );
     font-weight: map-get($font-weights , thin );
 }
+
+.card-title{
+    font-family: $font-style-text;
+    font-size: map-get($font-sizes , tagline );
+    font-weight: map-get($font-weights , bold );
+}
+
+.card-subtitle{
+    font-family: $font-style-text;
+    font-size: map-get($font-sizes , restaurant-location );
+    font-weight: map-get($font-weights , thin );
+}

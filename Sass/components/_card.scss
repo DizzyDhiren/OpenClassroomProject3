@@ -1,13 +1,25 @@
 //cards
 
 .card {
+    
     background-color: $BgColor;    
-    border-radius: 20px;
-    padding: 5px;
+    border-radius: 15px;
+    
 
     img{
-        object-fit: cover;
+        object-fit:cover;
+        border-radius: 15px 15px 0px 0px;
     }
     
+    &-info{
+        
+      margin-left: 13px;
+      padding: 10px 0px;
+    }
+
+    &-title, &-subtitle{
+        margin: 0px;
+        padding-bottom: 5px;
+    }
 }
 

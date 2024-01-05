@@ -1,0 +1,18 @@
+//varible2 
+@import "../components/variable";
+
+
+.test-like-button{
+    @extend .fa-regular;
+
+    &:hover{
+        @extend .fa-solid ;
+
+        background: $pink-gradient-color;
+	    -webkit-background-clip: text;
+	    -webkit-text-fill-color: transparent;
+    
+
+    }
+}
+

@@ -1,12 +1,19 @@
+@use    "./font_awesome/fontawesome.scss";
+@use    "./font_awesome/solid.scss";
+@use    "./font_awesome/regular.scss";
+
 @use    './components/header';
 @use    "./components/buttons";
 @use    './components/brief-description';
 @use    "./components/how-it-works";
 @use    "./components/homepage-restaurants";
 
+
 @import "./components/variable";
 @import "./components/font-style";
 @import "./components/mixins";
+
+@import "./layouts/test";
 
 
 

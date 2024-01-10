@@ -1,5 +1,5 @@
 //varible2 
-@import "../components/variable";
+@import "../helpers/variable";
 
 
 .test-like-button{
@@ -11,7 +11,8 @@
         background: $pink-gradient-color;
 	    -webkit-background-clip: text;
 	    -webkit-text-fill-color: transparent;
-    
+        
+        
 
     }
 }

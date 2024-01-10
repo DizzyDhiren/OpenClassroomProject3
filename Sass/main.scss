@@ -1,32 +1,22 @@
-@use    "./font_awesome/fontawesome.scss";
-@use    "./font_awesome/solid.scss";
-@use    "./font_awesome/regular.scss";
+//@use    "./font_awesome/fontawesome.scss";
+//@use    "./font_awesome/solid.scss";
+//@use    "./font_awesome/regular.scss";
 
-@use    './components/header';
-@use    "./components/buttons";
-@use    './components/brief-description';
-@use    "./components/how-it-works";
-@use    "./components/homepage-restaurants";
-
-
-@import "./components/variable";
-@import "./components/font-style";
-@import "./components/mixins";
-
-@import "./layouts/test";
+@use    './layouts/core';
+//@use    './layouts/header';
+//@use    "./components/buttons";
+//@use    './pages/homepage/brief-description';
+//@use    "./pages/homepage/how-it-works";
+//@use    "./pages/homepage/homepage-restaurants";
+//@use    "./layouts/footer";
 
 
+//@import "./helpers/variable";
+//@import "./helpers/font-style";
+//@import "./helpers/mixins";
 
-body{
-    @include flex-center(column);
-    margin: 0px;
-    background-color: $secondaryBgColor;
-    font-family: $font-style-text;
-    
-}
+//@import "./components/like-button";
 
-.main-container{
-    width: 100%;
-    min-width: 375px;
-    max-width: 1440px
-}
+
+
+

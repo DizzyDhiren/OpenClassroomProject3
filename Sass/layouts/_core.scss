@@ -1,0 +1,18 @@
+//core layout
+@import "../helpers/mixins";
+@import "../helpers/variable";
+@import "../helpers/font-style";
+
+body{
+    @include flex-center(column);
+    margin: 0px;
+    background-color: $secondaryBgColor;
+    font-family: $font-style-text;
+    
+}
+
+.main-container{
+    width: 100%;
+    min-width: 375px;
+    max-width: 1440px
+}

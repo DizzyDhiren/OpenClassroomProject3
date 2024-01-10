@@ -1,6 +1,6 @@
-@import "./variable";
-@import "./box-shadow";
-@import "./mixins";
+@import "../helpers/variable";
+@import "../components/box-shadow";
+@import "../helpers/mixins";
 
 header{
     @include flex-center(column);

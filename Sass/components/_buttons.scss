@@ -1,8 +1,8 @@
 //buttons
-@import "./variable";
-@import "./mixins";
+@import "../helpers/variable";
+@import "../helpers/mixins";
 @import "./box-shadow";
-@import "./font-style";
+@import "../helpers/font-style";
 
 .explore-menu{
     @include flex-center(row);
@@ -56,17 +56,9 @@ color: $BgColor;
 
 .like-button{
     float: right;
-    display: inline;
+    
     margin-right: 20px;
     
-    
-    
-
-    &:hover{
-   
-
-    
-}
 }
 
 

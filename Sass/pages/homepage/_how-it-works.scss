@@ -1,6 +1,6 @@
 //How it works section
-@import "./mixins";
-@import "./variable";
+@import "../../helpers/mixins";
+@import "../../helpers/variable";
 
 .how_works{
     background-color: $BgColor;

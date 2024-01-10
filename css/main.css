@@ -42,4 +42,9 @@ body {
   width: 100%;
   min-width: 375px;
   max-width: 1440px;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=main.css.map */

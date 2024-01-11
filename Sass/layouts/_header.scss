@@ -6,6 +6,7 @@ header{
     @include flex-center(column);
     flex-direction: column;
     
+    
 }
 
 .logo-container{
@@ -16,6 +17,8 @@ header{
     
     background-color: $BgColor;
     box-shadow: $box-shadow
+
+    
 }
 
 .logo{
@@ -29,7 +32,7 @@ header{
     gap: 17px;
     background-color: $grey2Color;
     color: $grey-heading-color;
-    padding: 10px;
+    padding: 10px 0px;
     width: 100%;
     z-index: -1;
 

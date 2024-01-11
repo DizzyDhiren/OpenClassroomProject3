@@ -8369,7 +8369,7 @@ header {
   gap: 17px;
   background-color: #EAEAEA;
   color: #353535;
-  padding: 10px;
+  padding: 10px 0px;
   width: 100%;
   z-index: -1;
 }
@@ -8555,6 +8555,7 @@ header {
   flex-direction: column;
   width: 100%;
   padding: 22px 25px;
+  margin-top: 60px;
   background-color: #353535;
 }
 .footer-column h4 {

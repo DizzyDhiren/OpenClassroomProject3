@@ -1,21 +1,21 @@
-//@use    "./font_awesome/fontawesome.scss";
-//@use    "./font_awesome/solid.scss";
-//@use    "./font_awesome/regular.scss";
+@use    "./font_awesome/fontawesome.scss";
+@use    "./font_awesome/solid.scss";
+@use    "./font_awesome/regular.scss";
 
 @use    './layouts/core';
-//@use    './layouts/header';
-//@use    "./components/buttons";
-//@use    './pages/homepage/brief-description';
-//@use    "./pages/homepage/how-it-works";
-//@use    "./pages/homepage/homepage-restaurants";
-//@use    "./layouts/footer";
+@use    './layouts/header';
+@use    "./components/buttons";
+@use    './pages/homepage/brief-description';
+@use    "./pages/homepage/how-it-works";
+@use    "./pages/homepage/homepage-restaurants";
+@use    "./layouts/footer"; 
 
 
-//@import "./helpers/variable";
-//@import "./helpers/font-style";
-//@import "./helpers/mixins";
+@import "./helpers/variable";
+@import "./helpers/font-style";
+@import "./helpers/mixins";
 
-//@import "./components/like-button";
+@import "./components/like-button";
 
 
 

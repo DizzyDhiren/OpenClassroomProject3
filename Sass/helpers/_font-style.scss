@@ -1,9 +1,12 @@
 //font sytling
 
 $font-style-text: Roboto;
+$font-style-logo: Shrikhand;
 
 $font-weights: (
     "thin":300,
+    "footer-subtitle":350,
+    "footer-title":400,
     "regular":500,
     "bold": 700
 );
@@ -44,4 +47,22 @@ $font-sizes:(
     font-family: $font-style-text;
     font-size: map-get($font-sizes , restaurant-location );
     font-weight: map-get($font-weights , thin );
+}
+
+.footer-title{
+    font-family: $font-style-logo;
+    font-size: map-get($font-sizes , tagline);
+    font-weight: map-get($font-weights , footer-title );
+}
+
+.footer-text-regular{
+    font-family: $font-style-text;
+    font-size: map-get($font-sizes , normal );
+    font-weight: map-get($font-weights , regular );
+}
+
+.footer-text-thin{
+    font-family: $font-style-text;
+    font-size: map-get($font-sizes , normal );
+    font-weight: map-get($font-weights , footer-subtitle );
 }

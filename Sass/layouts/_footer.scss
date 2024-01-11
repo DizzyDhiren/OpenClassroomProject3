@@ -1,46 +1,43 @@
 //footer
+@import "../helpers/variable";
+@import "../helpers/mixins";
 
-@mixin footer-styles {
-    background-color: $footer-background;
-    padding: 5px;
-    display: flex;
-    justify-content: flex-start;
-    position: relative;
-    bottom: 50px;
-    .footer-column {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      h4 {
-        margin: 0;
-        padding-top: 15px;
-        padding-left: 15px;
-        color: white;
-        //@include logo-font(medium, 300);
-      }
-      ul {
-        list-style: none;
-        padding: 0;
-        margin-left: 15px;
-        li {
-          @include roboto-font(small, 500);
-          i {
-            color: white;
-          }
-          a {
-            text-decoration: none;
-            color: white;
-          }
-          .footer-space {
-            margin: 12px;
-          }
-          .footer-space2 {
-            margin: 7px;
-          }
-          a:hover {
-            text-decoration: underline;
-          }
-        }
-      }
+
+.footer-column{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 22px 25px;
+
+  background-color: $footer-background;
+
+  h4{
+    margin: 0px;
+    color: white;
+  }
+
+  ul{
+    list-style: none;
+    padding: 0px;
+  }
+
+  li{
+    margin-bottom: 7px;
+    i{
+      color: white;
+    }
+   
+
+    a{
+    color: white;
+    text-decoration: none;
     }
   }
+}
+
+.footer-space {
+  margin: 13px;
+}
+.footer-space2 {
+  margin: 7px;
+}

@@ -2,6 +2,7 @@
 @import "../../helpers/mixins";
 @import "../../helpers/variable";
 @import "../../components/card";
+@import "../../helpers/breakpoints";
 
 
 
@@ -21,11 +22,20 @@
         @include flex-center(column);
         gap: 25px;
         
+        @include desktop{
+            flex-wrap: wrap;
+            flex-direction: row;
+            gap: 50px 100px;
+        }
         
 
         & .card{
             width: 340px;
             height: 251px;
+
+            @include tablet{
+                width: 490px;
+        }
 
             img{
                 width: 100%;

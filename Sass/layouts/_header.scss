@@ -1,6 +1,7 @@
 @import "../helpers/variable";
 @import "../components/box-shadow";
 @import "../helpers/mixins";
+@import "../helpers/breakpoints";
 
 header{
     @include flex-center(column);
@@ -16,15 +17,22 @@ header{
     
     
     background-color: $BgColor;
-    box-shadow: $box-shadow
+    box-shadow: $box-shadow;
 
-    
+    @include desktop{
+        height: 70px;
+    }
+
 }
 
 .logo{
     width: 162px;
     max-width: 200px;
     
+    @include desktop{
+        width: 200px
+    }
+
 }
 
 .location-container{
@@ -35,6 +43,10 @@ header{
     padding: 10px 0px;
     width: 100%;
     z-index: -1;
+
+    @include desktop{
+        height: 30px;
+    }
 
 }
 

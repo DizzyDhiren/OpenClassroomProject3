@@ -1,25 +1,47 @@
 //footer
 @import "../helpers/variable";
 @import "../helpers/mixins";
+@import "../helpers/breakpoints";
+
 
 
 .footer-column{
   display: flex;
   flex-direction: column;
-  width: 100%;
+  
   padding: 22px 25px;
   margin-top: 60px;
+  
 
   background-color: $footer-background;
+
+  @include desktop{
+      flex-direction: row-reverse;
+      height: 114px;
+      
+  }
 
   h4{
     margin: 0px;
     color: white;
+
+    @include desktop{
+      margin-left: 90px;
+      margin-right: 50px;
+      padding-top: 72px;
+    }
+    
   }
 
   ul{
     list-style: none;
     padding: 0px;
+    
+    @include desktop{
+        display: flex;
+        padding-top: 60px;
+        gap: 30px;
+    }
   }
 
   li{

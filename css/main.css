@@ -8355,10 +8355,20 @@ header {
   background-color: #ffffff;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
 }
+@media (min-width: 1440px) {
+  .logo-container {
+    height: 70px;
+  }
+}
 
 .logo {
   width: 162px;
   max-width: 200px;
+}
+@media (min-width: 1440px) {
+  .logo {
+    width: 200px;
+  }
 }
 
 .location-container {
@@ -8372,6 +8382,11 @@ header {
   padding: 10px 0px;
   width: 100%;
   z-index: -1;
+}
+@media (min-width: 1440px) {
+  .location-container {
+    height: 30px;
+  }
 }
 
 .normal-text-styles {
@@ -8429,7 +8444,7 @@ header {
   flex-direction: row;
   width: 218px;
   height: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   border-radius: 25px;
   background: linear-gradient(180deg, #FF79DA -11.44%, #9356DC 123.93%);
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
@@ -8488,16 +8503,26 @@ header {
 .brief-description-container h2 {
   padding: 15px 0;
 }
+@media (min-width: 1440px) {
+  .brief-description-container h2 {
+    font-size: 40px;
+  }
+}
 
 .how_works {
   background-color: #ffffff;
   height: 440px;
 }
+@media (min-width: 1440px) {
+  .how_works {
+    height: auto;
+  }
+}
 .how_works h2 {
   margin: 0px;
   text-align: left;
   margin-left: 20px;
-  padding: 35px 0;
+  padding: 30px 0;
 }
 .how_works-content {
   display: flex;
@@ -8505,6 +8530,13 @@ header {
   align-items: center;
   flex-direction: column;
   gap: 25px;
+}
+@media (min-width: 1440px) {
+  .how_works-content {
+    flex-direction: row;
+    padding-bottom: 50px;
+    gap: 35px;
+  }
 }
 .how_works-content .fa-store {
   color: #9356DC;
@@ -8540,9 +8572,21 @@ header {
   flex-direction: column;
   gap: 25px;
 }
+@media (min-width: 1440px) {
+  .restaurant_choice-content {
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 50px 100px;
+  }
+}
 .restaurant_choice-content .card {
   width: 340px;
   height: 251px;
+}
+@media (min-width: 768px) {
+  .restaurant_choice-content .card {
+    width: 490px;
+  }
 }
 .restaurant_choice-content .card img {
   width: 100%;
@@ -8553,18 +8597,37 @@ header {
 .footer-column {
   display: flex;
   flex-direction: column;
-  width: 100%;
   padding: 22px 25px;
   margin-top: 60px;
   background-color: #353535;
+}
+@media (min-width: 1440px) {
+  .footer-column {
+    flex-direction: row-reverse;
+    height: 114px;
+  }
 }
 .footer-column h4 {
   margin: 0px;
   color: white;
 }
+@media (min-width: 1440px) {
+  .footer-column h4 {
+    margin-left: 90px;
+    margin-right: 50px;
+    padding-top: 72px;
+  }
+}
 .footer-column ul {
   list-style: none;
   padding: 0px;
+}
+@media (min-width: 1440px) {
+  .footer-column ul {
+    display: flex;
+    padding-top: 60px;
+    gap: 30px;
+  }
 }
 .footer-column li {
   margin-bottom: 7px;

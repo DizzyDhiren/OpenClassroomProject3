@@ -1,12 +1,19 @@
 //font sytling
 
-$font-style-text: Roboto;
-$font-style-logo: Shrikhand;
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap');
+
+
+$font-familys: (
+"text"  : Roboto,
+"title" : Shrikhand
+);
 
 $font-weights: (
     "thin":300,
     "footer-subtitle":350,
     "footer-title":400,
+    "menu-title":400, 
     "regular":500,
     "bold": 700
 );
@@ -16,53 +23,20 @@ $font-sizes:(
     "normal":16px,
     "restaurant-location": 17px,
     "tagline":18px,
-    "section-header": 24px
+    "section-header": 24px,
+    "menu-title": 28px
 );
 
-.normal-text-styles{
-    font-family: $font-style-text;
-    font-size: map-get($font-sizes , normal );
-    font-weight: map-get($font-weights , regular );
+
+@function weight($weight-name) {
+    @return map-get($font-weights , $weight-name );
 }
 
-.section-header-text-style{
-    font-family: $font-style-text;
-    font-size: map-get($font-sizes , section-header );
-    font-weight: map-get($font-weights , bold );
+@function font-size($font-size) {
+    @return map-get($font-sizes, $font-size );
 }
 
-.tagline-text-style{
-    font-family: $font-style-text;
-    font-size: map-get($font-sizes , tagline );
-    font-weight: map-get($font-weights , thin );
+@function font-family($font-family) {
+    @return map-get($font-familys, $font-family );
 }
 
-.card-title{
-    font-family: $font-style-text;
-    font-size: map-get($font-sizes , tagline );
-    font-weight: map-get($font-weights , bold );
-}
-
-.card-subtitle{
-    font-family: $font-style-text;
-    font-size: map-get($font-sizes , restaurant-location );
-    font-weight: map-get($font-weights , thin );
-}
-
-.footer-title{
-    font-family: $font-style-logo;
-    font-size: map-get($font-sizes , tagline);
-    font-weight: map-get($font-weights , footer-title );
-}
-
-.footer-text-regular{
-    font-family: $font-style-text;
-    font-size: map-get($font-sizes , normal );
-    font-weight: map-get($font-weights , regular );
-}
-
-.footer-text-thin{
-    font-family: $font-style-text;
-    font-size: map-get($font-sizes , normal );
-    font-weight: map-get($font-weights , footer-subtitle );
-}

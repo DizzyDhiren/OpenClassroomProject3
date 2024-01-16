@@ -1,0 +1,30 @@
+//menu content
+@import "../../helpers/variable";
+@import "../../helpers/font-style";
+
+
+.menu{
+    background-color: $secondaryBgColor;
+    border-radius: 35px 35px 0px 0px;
+    position: relative;
+    top: -55px;
+    max-width: 1055px;
+    margin: 0 auto;
+
+    &-content{
+       padding: 15px; 
+       
+        h2{
+            font-weight: weight(menu-title);
+            font-size: font-size(menu-title);
+            font-family: font-family(title);
+        }
+
+        h3{
+            font-weight: weight(thin);
+            font-size: font-size(normal);
+            font-family: font-family(text);
+        }
+
+    }
+}

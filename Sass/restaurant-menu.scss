@@ -3,6 +3,8 @@
 @use    './layouts/core';
 @use    './layouts/header';
 @use    './pages/menupage/restaurant-img.scss';
+@use    './pages/menupage/menu';
+
 
 @use    "./layouts/footer";
 
@@ -10,3 +12,7 @@
 @import "./helpers/variable";
 @import "./helpers/font-style";
 @import "./helpers/mixins";
+
+body{
+    background-color: $BgColor;
+}

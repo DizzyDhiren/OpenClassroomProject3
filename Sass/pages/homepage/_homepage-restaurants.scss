@@ -7,7 +7,9 @@
 
 
 .restaurant_choice{
-
+        
+        max-width: 1440px;
+        
     
 
     & h2{
@@ -45,4 +47,8 @@
             
         }
     }
+}
+
+.restaurant_choice_container{
+    @include flex-center(column);
 }

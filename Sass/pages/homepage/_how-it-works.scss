@@ -2,6 +2,7 @@
 @import "../../helpers/mixins";
 @import "../../helpers/variable";
 @import "../../helpers/breakpoints";
+@import "../../helpers/font-style";
 
 .how_works{
     background-color: $BgColor;
@@ -18,7 +19,9 @@
             text-align: left;
             margin-left: 20px;
             padding: 30px 0;
-
+            font-weight: weight(bold);
+            font-size: font-size(section-header);
+            font-family: font-family(text);
             
         }
 
@@ -26,6 +29,12 @@
     &-content{
         @include flex-center(column);
         gap: 25px;
+
+        
+            font-weight: weight(regular);
+            font-size: font-size(normal);
+            font-family: font-family(text);
+        
 
         @include desktop{
             flex-direction: row;

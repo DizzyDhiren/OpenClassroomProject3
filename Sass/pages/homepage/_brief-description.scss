@@ -1,6 +1,7 @@
 //Under header - Brief Description
 @import "../../helpers/mixins";
 @import "../../helpers/breakpoints";
+@import "../../helpers/font-style";
 
 
 .brief-description-container{
@@ -12,10 +13,19 @@
     margin: 0px;
     text-align: center;
     margin-bottom: 27px;
+
+    
+    font-weight: weight(thin);
+    font-size: font-size(tagline);
+    font-family: font-family(text);
+    
     }
 
     & h2{
         padding: 15px 0;
+        font-weight: weight(bold);
+        font-size: font-size(section-header);
+        font-family: font-family(text);
     
         @include desktop{
             font-size: 40px;

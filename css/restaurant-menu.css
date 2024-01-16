@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap");
 body {
   display: flex;
   justify-content: center;
@@ -67,6 +69,11 @@ header {
     height: 30px;
   }
 }
+.location-container a {
+  font-weight: 500;
+  font-size: 16px;
+  font-family: Roboto;
+}
 
 .restaurant-img-container {
   width: 100%;
@@ -115,6 +122,9 @@ header {
 .footer-column h4 {
   margin: 0px;
   color: white;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: Shrikhand;
 }
 @media (min-width: 1440px) {
   .footer-column h4 {
@@ -126,6 +136,8 @@ header {
 .footer-column ul {
   list-style: none;
   padding: 0px;
+  font-size: 16px;
+  font-family: Roboto;
 }
 @media (min-width: 1440px) {
   .footer-column ul {

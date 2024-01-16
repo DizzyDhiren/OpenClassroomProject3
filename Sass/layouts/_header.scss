@@ -2,6 +2,7 @@
 @import "../components/box-shadow";
 @import "../helpers/mixins";
 @import "../helpers/breakpoints";
+@import "../helpers/font-style";
 
 header{
     @include flex-center(column);
@@ -48,5 +49,11 @@ header{
         height: 30px;
     }
 
+
+    & a {
+        font-weight: weight(regular);
+        font-size: font-size(normal);
+        font-family: font-family(text);
+    }
 }
 

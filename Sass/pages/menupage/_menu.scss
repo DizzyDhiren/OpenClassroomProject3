@@ -48,10 +48,13 @@
             &:after{
                 content: '';
                 display: block;
-                position: absolute;
+                position: relative;
                 width: 40px;
                 background-color: #99E2D0;
-                height: 3px;
+                height: 4px;
+                bottom:-7px;
+                
+                
                 
             }
         }

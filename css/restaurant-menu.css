@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap");
 body {
   display: flex;
   justify-content: center;
@@ -123,10 +124,11 @@ header {
 .menu-content h3:after {
   content: "";
   display: block;
-  position: absolute;
+  position: relative;
   width: 40px;
   background-color: #99E2D0;
-  height: 3px;
+  height: 4px;
+  bottom: -7px;
 }
 .menu-content h4 {
   font-weight: 500;
@@ -225,6 +227,72 @@ header {
   margin: 7px;
 }
 
+.explore-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 218px;
+  height: 50px;
+  margin-bottom: 30px;
+  border-radius: 25px;
+  background: linear-gradient(180deg, #FF79DA -11.44%, #9356DC 123.93%);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.how_works-bttn {
+  display: flex;
+  align-items: center;
+  width: 322px;
+  height: 72px;
+  background-color: #F6F6F6;
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.icon {
+  width: 16px;
+  margin-right: 25px;
+  color: #7E7E7E;
+}
+
+.num-steps {
+  height: 15px;
+  width: 15px;
+  margin-left: -10px;
+  margin-right: 25px;
+  padding: 4px;
+  font-size: 14.5px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #9356DC;
+  color: #ffffff;
+}
+
+.like-button {
+  float: right;
+  margin-right: 20px;
+}
+
+.order-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 186px;
+  height: 50px;
+  margin-bottom: 40px;
+  border-radius: 25px;
+  background: linear-gradient(180deg, #FF79DA -11.44%, #9356DC 123.93%);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .card {
   background-color: #ffffff;
   border-radius: 15px;
@@ -244,4 +312,8 @@ header {
 
 body {
   background-color: #ffffff;
+}
+
+.footer-column {
+  margin-top: 0px;
 }/*# sourceMappingURL=restaurant-menu.css.map */

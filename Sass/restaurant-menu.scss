@@ -9,7 +9,7 @@
 
 @use    "./layouts/footer";
 
-
+@import "./components/buttons";
 @import "./helpers/variable";
 @import "./components/card";
 @import "./helpers/font-style";
@@ -17,4 +17,8 @@
 
 body{
     background-color: $BgColor;
+}
+
+.footer-column{
+    margin-top: 0px;
 }

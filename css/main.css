@@ -8301,7 +8301,6 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  flex-direction: column;
 }
 
 .logo-container {
@@ -8527,6 +8526,10 @@ header {
     flex-direction: row;
     gap: 50px 100px;
   }
+}
+.restaurant_choice-content a {
+  text-decoration: none;
+  color: black;
 }
 .restaurant_choice-content .card {
   width: 340px;

@@ -1,0 +1,24 @@
+//back button 
+@import "../helpers/variable";
+
+header{
+flex-direction: row;
+
+.logo-container{
+    box-shadow: none;
+}
+
+.back-btn-container{
+    position: relative;
+    margin-left: 10px;
+    align-self: center;
+   
+    
+
+    .back-btn{
+    color: $grey-heading-color;
+    font-size: 30px;
+}
+}
+
+}

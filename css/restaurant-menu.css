@@ -24,7 +24,6 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  flex-direction: column;
 }
 
 .logo-container {
@@ -227,6 +226,22 @@ header {
   margin: 7px;
 }
 
+header {
+  flex-direction: row;
+}
+header .logo-container {
+  box-shadow: none;
+}
+header .back-btn-container {
+  position: relative;
+  margin-left: 10px;
+  align-self: center;
+}
+header .back-btn-container .back-btn {
+  color: #353535;
+  font-size: 30px;
+}
+
 .explore-menu {
   display: flex;
   justify-content: center;
@@ -315,5 +330,5 @@ body {
 }
 
 .footer-column {
-  margin-top: 0px;
+  margin-top: -55px;
 }/*# sourceMappingURL=restaurant-menu.css.map */

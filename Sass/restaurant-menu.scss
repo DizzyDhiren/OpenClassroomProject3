@@ -6,10 +6,12 @@
 @use    './pages/menupage/menu';
 
 
+
 @use    "./layouts/footer";
 
 
 @import "./helpers/variable";
+@import "./components/card";
 @import "./helpers/font-style";
 @import "./helpers/mixins";
 

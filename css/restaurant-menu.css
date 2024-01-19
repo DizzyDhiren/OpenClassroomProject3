@@ -288,11 +288,6 @@ header .back-btn-container .back-btn {
   color: #ffffff;
 }
 
-.like-button {
-  float: right;
-  margin-right: 20px;
-}
-
 .order-btn {
   display: flex;
   justify-content: center;

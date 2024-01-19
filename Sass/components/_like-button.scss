@@ -17,3 +17,39 @@
     }
 }
 
+.like-button{
+    float: right;
+    position: relative;
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+
+    &:hover{
+        .fa-solid{
+            
+            background: $pink-gradient-color;
+            -webkit-background-clip: text;
+	        -webkit-text-fill-color: transparent;
+            opacity: 100%;
+        }
+
+        .fa-regular{
+            opacity: 0%;
+        }
+    }
+    
+    .fa-heart{
+        position: absolute;
+        top:0px;
+        left: 0px;
+
+    }
+
+    .fa-solid{
+        opacity: 0%;
+    }
+
+    .fa-regular{
+        opacity: 100%;
+    }
+}

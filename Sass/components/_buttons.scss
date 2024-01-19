@@ -54,12 +54,7 @@ background-color: $primaryColor;
 color: $BgColor;
 }
 
-.like-button{
-    float: right;
-    
-    margin-right: 20px;
-    
-}
+
 
 .order-btn{
     @include flex-center(row);

@@ -6,8 +6,9 @@
 
 .how_works{
     background-color: $BgColor;
-   
-    height: 440px;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
 
     @include desktop{
         height: auto;       
@@ -16,9 +17,10 @@
 
     & h2{
             margin: 0px;
-            text-align: left;
-            margin-left: 20px;
-            padding: 30px 0;
+            align-self: flex-start;
+            width: 100%;
+            max-width: 1040px;
+            
             font-weight: weight(bold);
             font-size: font-size(section-header);
             font-family: font-family(text);
@@ -28,8 +30,9 @@
 
     &-content{
         @include flex-center(column);
-        gap: 25px;
-
+            gap: 25px;
+            width: fit-content;
+            height: auto;
         
             font-weight: weight(regular);
             font-size: font-size(normal);
@@ -40,6 +43,7 @@
             flex-direction: row;
             padding-bottom: 50px;
             gap: 35px;
+            flex-wrap: wrap;
         }
         
         

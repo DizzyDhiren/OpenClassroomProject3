@@ -34,6 +34,17 @@
             gap: 50px 100px;
         }
 
+        & h2{
+            margin-bottom: 0px;
+            margin-top: 25px;
+            align-self: flex-start;
+            width: 100%;
+            max-width: 1080px;
+            font-weight: weight(bold);
+            font-size: font-size(section-header);
+            font-family: font-family(text);
+        }
+
         & a{
             text-decoration: none;
             color: black;

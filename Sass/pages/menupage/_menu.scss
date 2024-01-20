@@ -4,6 +4,7 @@
 @import "../../components/box-shadow";
 @import "../../helpers/mixins";
 @import "../../helpers/breakpoints";
+@import "../../components/like-button";
 
 
 .menu{
@@ -21,16 +22,31 @@
        @include flex-center(column);
        gap: 40px;
 
+       .title-and-like{
+            @include flex-center(row);
+            width: 100%;
+            margin-top: 20px;
+            justify-content: space-between;
+            max-width: 600px;
+
+            @include tablet{
+                justify-content: center;
+                gap: 75px  ;
+            }
+        
+       }
+
         h2{
             font-weight: weight(menu-title);
             font-size: font-size(menu-title);
             font-family: font-family(title);
-            padding-top: 20px;
+            //padding-top: 20px;
             margin: 0px;
             align-self: flex-start;
 
             @include tablet{
                 align-self: center;
+                
             }
 
             

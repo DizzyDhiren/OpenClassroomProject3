@@ -8436,9 +8436,7 @@ header {
 
 .how_works {
   background-color: #ffffff;
-  display: flex;
-  justify-content: center;
-  padding: 40px;
+  height: 440px;
 }
 @media (min-width: 1440px) {
   .how_works {
@@ -8448,9 +8446,8 @@ header {
 .how_works h2 {
   margin: 0px;
   text-align: left;
-  align-self: flex-start;
-  width: 100%;
-  max-width: 1040px;
+  margin-left: 20px;
+  padding: 30px 0;
   font-weight: 700;
   font-size: 24px;
   font-family: Roboto;
@@ -8470,7 +8467,6 @@ header {
     flex-direction: row;
     padding-bottom: 50px;
     gap: 35px;
-    flex-wrap: wrap;
   }
 }
 .how_works-content .fa-store {
@@ -8515,7 +8511,6 @@ header {
 }
 .restaurant_choice-content h2 {
   margin-bottom: 0px;
-  margin-top: 25px;
   align-self: flex-start;
   width: 100%;
   max-width: 1080px;

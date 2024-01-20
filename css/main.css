@@ -8516,7 +8516,6 @@ header {
 }
 .restaurant_choice-content h2 {
   margin-bottom: 0px;
-
   align-self: flex-start;
   width: 100%;
   max-width: 1080px;
@@ -8619,6 +8618,14 @@ header {
   margin: 7px;
 }
 
+@keyframes heart {
+  from {
+    opacity: 17%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
 .like-button {
   float: right;
   position: relative;
@@ -8631,6 +8638,8 @@ header {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 100%;
+  animation-name: heart;
+  animation-duration: 2.5s;
 }
 .like-button:hover .fa-regular {
   opacity: 0%;

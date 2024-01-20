@@ -84,6 +84,14 @@ header {
   max-height: 475px;
 }
 
+@keyframes heart {
+  from {
+    opacity: 17%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
 .like-button {
   float: right;
   position: relative;
@@ -96,6 +104,8 @@ header {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 100%;
+  animation-name: heart;
+  animation-duration: 2.5s;
 }
 .like-button:hover .fa-regular {
   opacity: 0%;

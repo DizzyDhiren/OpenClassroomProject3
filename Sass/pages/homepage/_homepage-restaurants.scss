@@ -13,20 +13,14 @@
         
     
 
-    & h2{
-            margin: 0px;
-            text-align: left;
-            margin-left: 20px;
-            padding: 35px 0;
-            font-weight: weight(bold);
-            font-size: font-size(section-header);
-            font-family: font-family(text);
-        }
+    
 
 
     &-content{
         @include flex-center(column);
         gap: 25px;
+        width: fit-content;
+        height: auto;
         
         @include desktop{
             flex-wrap: wrap;
@@ -36,7 +30,7 @@
 
         & h2{
             margin-bottom: 0px;
-            margin-top: 25px;
+
             align-self: flex-start;
             width: 100%;
             max-width: 1080px;

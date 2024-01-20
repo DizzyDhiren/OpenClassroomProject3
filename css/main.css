@@ -21,10 +21,8 @@
 .fa-sharp,
 .fas,
 .fa-solid,
-.test-like-button:hover,
 .far,
 .fa-regular,
-.test-like-button,
 .fab,
 .fa-brands {
   -moz-osx-font-smoothing: grayscale;
@@ -39,10 +37,8 @@
 .fas,
 .fa-classic,
 .fa-solid,
-.test-like-button:hover,
 .far,
-.fa-regular,
-.test-like-button {
+.fa-regular {
   font-family: "Font Awesome 6 Free";
 }
 
@@ -8253,8 +8249,7 @@ readers do not read off random characters that represent icons */
   src: url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.ttf") format("truetype");
 }
 .fas,
-.fa-solid,
-.test-like-button:hover {
+.fa-solid {
   font-weight: 900;
 }
 
@@ -8276,8 +8271,7 @@ readers do not read off random characters that represent icons */
   src: url("../webfonts/fa-regular-400.woff2") format("woff2"), url("../webfonts/fa-regular-400.ttf") format("truetype");
 }
 .far,
-.fa-regular,
-.test-like-button {
+.fa-regular {
   font-weight: 400;
 }
 
@@ -8398,11 +8392,6 @@ header {
   color: #ffffff;
 }
 
-.like-button {
-  float: right;
-  margin-right: 20px;
-}
-
 .order-btn {
   display: flex;
   justify-content: center;
@@ -8509,21 +8498,14 @@ header {
 .restaurant_choice {
   max-width: 1440px;
 }
-.restaurant_choice h2 {
-  margin: 0px;
-  text-align: left;
-  margin-left: 20px;
-  padding: 35px 0;
-  font-weight: 700;
-  font-size: 24px;
-  font-family: Roboto;
-}
 .restaurant_choice-content {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 25px;
+  width: fit-content;
+  height: auto;
 }
 @media (min-width: 1440px) {
   .restaurant_choice-content {
@@ -8534,7 +8516,7 @@ header {
 }
 .restaurant_choice-content h2 {
   margin-bottom: 0px;
-  margin-top: 25px;
+
   align-self: flex-start;
   width: 100%;
   max-width: 1080px;
@@ -8637,8 +8619,30 @@ header {
   margin: 7px;
 }
 
-.test-like-button:hover {
+.like-button {
+  float: right;
+  position: relative;
+  margin-right: 20px;
+  width: 20px;
+  height: 20px;
+}
+.like-button:hover .fa-solid {
   background: linear-gradient(180deg, #FF79DA -11.44%, #9356DC 123.93%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  opacity: 100%;
+}
+.like-button:hover .fa-regular {
+  opacity: 0%;
+}
+.like-button .fa-heart {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.like-button .fa-solid {
+  opacity: 0%;
+}
+.like-button .fa-regular {
+  opacity: 100%;
 }/*# sourceMappingURL=main.css.map */

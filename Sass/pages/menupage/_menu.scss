@@ -88,6 +88,9 @@
         }
 
         & .card{
+            display: flex;
+            
+            
             max-width: 604px;
             width: calc(100% - 30px);
             height:42px;
@@ -95,10 +98,25 @@
             
             box-shadow: $card-box-shadow;
 
+            &:hover{
+                .order-animation{
+                    width: 17%;
+                    
+                    transition-duration: 3s;
+                }
+            }
+
+            &-content{
+                display: flex;
+                flex-direction: column;
+            }
+
             & .price{
                 position: relative;
-                float: right;
-                bottom: 20px;
+                align-self: flex-end;
+                margin-left: auto;
+                //bottom: 20px;
+                justify-self: flex-end;
                 font-weight: weight(bold);
                 font-size: font-size(menu-subtitle);
                 

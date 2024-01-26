@@ -235,6 +235,8 @@ header {
 .menu-content .card-content {
   display: flex;
   flex-direction: column;
+  white-space: nowrap;
+  min-width: 0;
 }
 .menu-content .card .price {
   position: relative;
@@ -247,6 +249,8 @@ header {
 .menu-content .card-title, .menu-content .card-subtitle {
   margin: 0px;
   padding-bottom: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .menu-content .menu-course-container {
   display: flex;

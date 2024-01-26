@@ -103,6 +103,10 @@
             &-content{
                 display: flex;
                 flex-direction: column;
+                white-space: nowrap;
+                
+                min-width: 0;
+                
             }
 
             & .price{
@@ -119,6 +123,8 @@
             &-title, &-subtitle{
                 margin: 0px;
                 padding-bottom: 2px;
+                overflow: hidden;
+                text-overflow: ellipsis;
             }
         }
 

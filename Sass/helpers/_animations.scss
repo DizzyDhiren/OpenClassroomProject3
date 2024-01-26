@@ -19,14 +19,15 @@
         &:hover{
 
             .order-animation{
+                overflow: hidden;
                 
-                transition-duration: 3s;
-               
+                width: 17%;
+                transition: ease-in-out 2s;
                 
             }
 
             .fa-check{
-                transition-duration: 3s;
+                
                 
             }
 
@@ -41,7 +42,7 @@
             align-self: center;
             overflow: hidden;
             width: 0%;
-            
+            transition: ease-out 2s ;
             height: 73px;
             background-color: aquamarine;
             border-radius: 0 15px 15px 0;

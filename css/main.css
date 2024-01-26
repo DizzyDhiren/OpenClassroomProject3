@@ -8628,10 +8628,9 @@ header {
 }
 @keyframes add-dishes {}
 .menu-content .card:hover .order-animation {
-  transition-duration: 3s;
-}
-.menu-content .card:hover .fa-check {
-  transition-duration: 3s;
+  overflow: hidden;
+  width: 17%;
+  transition: ease-in-out 2s;
 }
 .menu-content .card .order-animation {
   position: relative;
@@ -8642,6 +8641,7 @@ header {
   align-self: center;
   overflow: hidden;
   width: 0%;
+  transition: ease-out 2s;
   height: 73px;
   background-color: aquamarine;
   border-radius: 0 15px 15px 0;

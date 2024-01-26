@@ -98,13 +98,7 @@
             
             box-shadow: $card-box-shadow;
 
-            &:hover{
-                .order-animation{
-                    width: 17%;
-                    
-                    transition-duration: 3s;
-                }
-            }
+            
 
             &-content{
                 display: flex;

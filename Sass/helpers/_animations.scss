@@ -1,5 +1,7 @@
 //Animations
 
+@import "../helpers/variable";
+
 @keyframes heart {
     from {opacity: 17%;}
     to {opacity: 100%;}
@@ -31,11 +33,6 @@
                 
             }
 
-            .fa-check{
-                
-                
-            }
-
         }
 
         & .order-container{
@@ -56,21 +53,21 @@
             
             transition: ease-out 2s ;
             height: 73px;
-            background-color: aquamarine;
-            //border-radius: 0 15px 15px 0;
+            background-color: $add-to-order-animation;
+            
             
             transform-origin: 100% 50%;
            
         }
 
         .fa-check{
-            color: aquamarine;
+            color: $add-to-order-animation;
             padding: 3px;
             
             border-radius: 25px;
             
             font-size: 20px;
-            background-color:white ;
+            background-color:$BgColor;
         }
         
         

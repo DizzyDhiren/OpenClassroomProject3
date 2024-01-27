@@ -1,6 +1,5 @@
-@use    "./font_awesome/fontawesome.scss";
-@use    "./font_awesome/solid.scss";
-@use    "./font_awesome/regular.scss";
+@use    "./helpers/optimised-fontawesome";
+
 
 @use    './layouts/core';
 @use    './layouts/header';
@@ -16,6 +15,7 @@
 @import "./helpers/mixins";
 
 @import "./components/like-button";
+
 
 
 

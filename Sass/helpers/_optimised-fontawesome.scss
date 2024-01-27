@@ -1,0 +1,27 @@
+//optimised font awesome scss
+@use "sass:map";
+
+@import "../font_awesome/functions";
+@import "../font_awesome/variables";
+@import "../font_awesome/mixins";
+@import "../font_awesome/core";
+@import "../font_awesome/sizing";
+@import "../font_awesome/solid.scss";
+@import "../font_awesome/regular.scss";
+
+
+$ohmyfood-icons: (
+  "heart": map.get($fa-icons, "heart"),
+  "utensils": map-get($fa-icons, "utensils" ),
+  "handshake": map-get($fa-icons, "handshake" ),
+  "location-dot": map-get($fa-icons, "location-dot" )
+);
+
+
+
+
+@each $name, $icon in $ohmyfood-icons {
+    .#{$fa-css-prefix}-#{$name}::before {
+      content: unquote('"#{ $icon }"');
+    }
+  }

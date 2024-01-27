@@ -11,18 +11,23 @@
 }
 
 
+
 .menu-content{
 
 
     .card{
         
         &:hover{
+            .order-container{
+                width: 60px;
+                transition:ease-in-out 2s ;
+            }
 
             .order-animation{
                 overflow: hidden;
                 
-                width: 17%;
                 transition: ease-in-out 2s;
+                //transform: translate(-60px,0px);
                 
             }
 
@@ -33,19 +38,26 @@
 
         }
 
+        & .order-container{
+            width: 0px;
+            transition: ease-out 2s;
+        }
+
         & .order-animation{
             position: relative;
             left: 15px;
+            top: -15px;
             display: flex;
             justify-content: center;
             align-items: center;
             align-self: center;
             overflow: hidden;
-            width: 0%;
+            width: 60px;
+            
             transition: ease-out 2s ;
             height: 73px;
             background-color: aquamarine;
-            border-radius: 0 15px 15px 0;
+            //border-radius: 0 15px 15px 0;
             
             transform-origin: 100% 50%;
            
@@ -60,9 +72,7 @@
             font-size: 20px;
             background-color:white ;
         }
-         & .end{
-            align-self: center;
-         }
+        
         
         
     }

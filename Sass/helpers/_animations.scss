@@ -97,3 +97,8 @@
          }
      }
  }
+
+
+ @mixin btn-hover{
+    background-color: $pink-gradient-color(white 15%);
+ }

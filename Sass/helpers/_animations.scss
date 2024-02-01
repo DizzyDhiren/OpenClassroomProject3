@@ -100,5 +100,8 @@
 
 
  @mixin btn-hover{
-    background-color: $pink-gradient-color(white 15%);
+    filter: brightness(115%) saturate(85%); 
+    box-shadow: $btn-hover-shadow;
+    
+
  }

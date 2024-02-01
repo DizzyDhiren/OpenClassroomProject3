@@ -3,6 +3,7 @@
 @import "../helpers/mixins";
 @import "./box-shadow";
 @import "../helpers/font-style";
+@import "../helpers/animations";
 
 .explore-menu{
     @include flex-center(row);
@@ -15,6 +16,10 @@
     
     text-decoration: none;
     color: $BgColor;
+
+    &:hover{
+        @include btn-hover;
+    }
 
 }
 
@@ -67,6 +72,10 @@ color: $BgColor;
     
     text-decoration: none;
     color: $BgColor;
+
+    &:hover{
+        @include btn-hover;
+    }
 }
 
 

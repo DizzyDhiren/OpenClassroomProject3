@@ -2,6 +2,7 @@
 @import "../../helpers/mixins";
 @import "../../helpers/variable";
 @import "../../components/card";
+@import "../../components/new-label";
 @import "../../helpers/breakpoints";
 @import "../../helpers/font-style";
 
@@ -48,6 +49,7 @@
         & .card{
             width: 340px;
             height: 251px;
+            position: relative;
 
             @include tablet{
                 width: 490px;

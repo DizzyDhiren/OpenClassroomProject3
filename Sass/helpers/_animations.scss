@@ -97,3 +97,11 @@
          }
      }
  }
+
+
+ @mixin btn-hover{
+    filter: brightness(115%) saturate(85%); 
+    box-shadow: $btn-hover-shadow;
+    
+
+ }

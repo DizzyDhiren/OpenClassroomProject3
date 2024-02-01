@@ -485,6 +485,7 @@ header {
   height: 29px;
   justify-content: center;
   align-items: center;
+  border-radius: 3px;
   background-color: #99E2D0;
 }
 

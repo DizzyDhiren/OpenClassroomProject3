@@ -1,5 +1,6 @@
 //new Label
 @import "../helpers/variable";
+@import "../helpers/font-style";
 
 .new-label{
 position: absolute;
@@ -16,6 +17,10 @@ align-items: center;
 border-radius: 3px;
 
 background-color: $add-to-order-animation;
+color: $green-font;
 
+font-weight: weight(regular);
+font-size: font-size(normal);
+font-family: font-family(text);
 
 }

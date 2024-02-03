@@ -17,6 +17,7 @@
 
     .menu-course-container{
         animation: 1.5s ease-in-out both fade-in ;
+        
     }
 
 
@@ -91,9 +92,9 @@
  @for $i from 1 through 4{
      .menu-course-container{
  
-         &:nth-child(#{$i}) {
+         &:nth-of-type(#{$i}) {
              
-             animation-delay: $i * 750ms;
+             animation-delay: $i * 650ms;
          }
      }
  }
@@ -102,6 +103,57 @@
  @mixin btn-hover{
     filter: brightness(115%) saturate(85%); 
     box-shadow: $btn-hover-shadow;
-    
-
  }
+
+ .loader {
+    
+   position: relative;
+    width: 100px;
+    height: 100px;
+    border: 20px solid $primaryColor;
+    border-bottom-color: $add-to-order-animation;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear 3 backwards;
+    opacity: 0;
+    
+    
+    
+    }
+
+    .loading-screen{
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        left: auto;
+        top: 500px;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: rotate(360deg);
+        opacity: 1;
+    }
+    } 
+
+    #index-main-container{ 
+        animation: appear 3s linear 1 forwards;
+        transition: ease-in 3s;
+        opacity: 0;
+        animation-delay: 3s;
+    }
+
+    @keyframes appear {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+            
+        }
+        } 

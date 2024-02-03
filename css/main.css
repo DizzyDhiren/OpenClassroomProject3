@@ -648,6 +648,10 @@ header {
   margin: 7px;
 }
 
+.footer-text-thin {
+  font-weight: 300;
+}
+
 @keyframes heart {
   from {
     opacity: 17%;

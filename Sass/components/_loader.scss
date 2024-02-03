@@ -1,0 +1,32 @@
+//Loader
+
+@import '../helpers/variable';
+
+.loader {
+    
+    position: relative;
+     width: 100px;
+     height: 100px;
+     border: 20px solid $primaryColor;
+     border-bottom-color: $add-to-order-animation;
+     border-radius: 50%;
+     display: inline-block;
+     box-sizing: border-box;
+     animation: rotation 1s linear 3 backwards;
+     opacity: 0;
+     }
+ 
+     .loading-screen{
+         position: fixed;
+         display: flex;
+         justify-content: center;
+         left: auto;
+         top: 500px;
+     }
+
+     #index-main-container{ 
+        animation: appear 3s linear 1 forwards;
+        transition: ease-in 3s;
+        opacity: 0;
+        animation-delay: 3s;
+    }

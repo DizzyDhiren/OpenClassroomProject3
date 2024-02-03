@@ -92,44 +92,6 @@ header {
     opacity: 100%;
   }
 }
-.menu-content .menu-course-container {
-  animation: 1.5s ease-in-out both fade-in;
-}
-.menu-content .card:hover .order-container {
-  width: 60px;
-  transition: ease-in-out 2s;
-}
-.menu-content .card:hover .order-animation {
-  overflow: hidden;
-  transition: ease-in-out 2s;
-}
-.menu-content .card .order-container {
-  width: 0px;
-  transition: ease-out 2s;
-}
-.menu-content .card .order-animation {
-  position: relative;
-  left: 15px;
-  top: -15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-self: center;
-  overflow: hidden;
-  width: 60px;
-  transition: ease-out 2s;
-  height: 73px;
-  background-color: #99E2D0;
-  transform-origin: 100% 50%;
-}
-.menu-content .card .fa-check {
-  color: #99E2D0;
-  padding: 3px;
-  border-radius: 25px;
-  font-size: 20px;
-  background-color: #ffffff;
-}
-
 @keyframes fade-in {
   0% {
     opacity: 0;
@@ -154,27 +116,6 @@ header {
   animation-delay: 2600ms;
 }
 
-.loader {
-  position: relative;
-  width: 100px;
-  height: 100px;
-  border: 20px solid #9356DC;
-  border-bottom-color: #99E2D0;
-  border-radius: 50%;
-  display: inline-block;
-  box-sizing: border-box;
-  animation: rotation 1s linear 3 backwards;
-  opacity: 0;
-}
-
-.loading-screen {
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  left: auto;
-  top: 500px;
-}
-
 @keyframes rotation {
   0% {
     transform: rotate(0deg);
@@ -185,13 +126,6 @@ header {
     opacity: 1;
   }
 }
-#index-main-container {
-  animation: appear 3s linear 1 forwards;
-  transition: ease-in 3s;
-  opacity: 0;
-  animation-delay: 3s;
-}
-
 @keyframes appear {
   0% {
     opacity: 0;
@@ -309,6 +243,40 @@ header {
   padding: 15px;
   box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.15);
 }
+.menu-content .card .order-container {
+  width: 0px;
+  transition: ease-out 2s;
+}
+.menu-content .card .fa-check {
+  color: #99E2D0;
+  padding: 3px;
+  border-radius: 25px;
+  font-size: 20px;
+  background-color: #ffffff;
+}
+.menu-content .card .order-animation {
+  position: relative;
+  left: 15px;
+  top: -15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  overflow: hidden;
+  width: 60px;
+  transition: ease-out 2s;
+  height: 73px;
+  background-color: #99E2D0;
+  transform-origin: 100% 50%;
+}
+.menu-content .card:hover .order-container {
+  width: 60px;
+  transition: ease-in-out 1.4s;
+}
+.menu-content .card:hover .order-animation {
+  overflow: hidden;
+  transition: ease-in-out 1s;
+}
 .menu-content .card-content {
   display: flex;
   flex-direction: column;
@@ -337,6 +305,7 @@ header {
   gap: 12px;
   width: 100%;
   max-width: 604px;
+  animation: 1.5s ease-in-out both fade-in;
 }
 
 .footer-column {
@@ -422,44 +391,6 @@ header .back-btn-container .back-btn {
     opacity: 100%;
   }
 }
-.menu-content .menu-course-container {
-  animation: 1.5s ease-in-out both fade-in;
-}
-.menu-content .card:hover .order-container {
-  width: 60px;
-  transition: ease-in-out 2s;
-}
-.menu-content .card:hover .order-animation {
-  overflow: hidden;
-  transition: ease-in-out 2s;
-}
-.menu-content .card .order-container {
-  width: 0px;
-  transition: ease-out 2s;
-}
-.menu-content .card .order-animation {
-  position: relative;
-  left: 15px;
-  top: -15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-self: center;
-  overflow: hidden;
-  width: 60px;
-  transition: ease-out 2s;
-  height: 73px;
-  background-color: #99E2D0;
-  transform-origin: 100% 50%;
-}
-.menu-content .card .fa-check {
-  color: #99E2D0;
-  padding: 3px;
-  border-radius: 25px;
-  font-size: 20px;
-  background-color: #ffffff;
-}
-
 @keyframes fade-in {
   0% {
     opacity: 0;
@@ -484,27 +415,6 @@ header .back-btn-container .back-btn {
   animation-delay: 2600ms;
 }
 
-.loader {
-  position: relative;
-  width: 100px;
-  height: 100px;
-  border: 20px solid #9356DC;
-  border-bottom-color: #99E2D0;
-  border-radius: 50%;
-  display: inline-block;
-  box-sizing: border-box;
-  animation: rotation 1s linear 3 backwards;
-  opacity: 0;
-}
-
-.loading-screen {
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  left: auto;
-  top: 500px;
-}
-
 @keyframes rotation {
   0% {
     transform: rotate(0deg);
@@ -515,13 +425,6 @@ header .back-btn-container .back-btn {
     opacity: 1;
   }
 }
-#index-main-container {
-  animation: appear 3s linear 1 forwards;
-  transition: ease-in 3s;
-  opacity: 0;
-  animation-delay: 3s;
-}
-
 @keyframes appear {
   0% {
     opacity: 0;

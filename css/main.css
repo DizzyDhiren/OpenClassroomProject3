@@ -525,16 +525,23 @@ header {
 }
 
 .restaurant_choice {
+  width: 100%;
   max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .restaurant_choice-content {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: 25px;
   width: fit-content;
   height: auto;
+  padding: 15px;
 }
 @media (min-width: 1440px) {
   .restaurant_choice-content {
@@ -555,16 +562,13 @@ header {
 .restaurant_choice-content a {
   text-decoration: none;
   color: black;
+  width: calc(100% - 30px);
+  max-width: 498px;
 }
 .restaurant_choice-content .card {
-  width: 340px;
+  width: 100%;
   height: 251px;
   position: relative;
-}
-@media (min-width: 768px) {
-  .restaurant_choice-content .card {
-    width: 490px;
-  }
 }
 .restaurant_choice-content .card img {
   width: 100%;

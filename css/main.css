@@ -179,6 +179,18 @@
   content: "\f3c5";
 }
 
+.fa-mobile-screen-button::before {
+  content: "\f3cd";
+}
+
+.fa-list-ul::before {
+  content: "\f0ca";
+}
+
+.fa-store::before {
+  content: "\f54e";
+}
+
 @keyframes heart {
   from {
     opacity: 17%;

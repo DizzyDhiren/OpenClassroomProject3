@@ -1,0 +1,32 @@
+//location on homepage
+@import "../../helpers/mixins";
+@import "../../helpers/variable";
+@import "../../helpers/breakpoints";
+@import "../../helpers/font-style";
+
+.location-container{
+    @include flex-center(row);
+    gap: 17px;
+    background-color: $grey2Color;
+    color: $grey-heading-color;
+    padding: 10px 0px;
+    width: 100%;
+    z-index: -1;
+
+    @include desktop{
+        height: 30px;
+    }
+
+
+    & input[type=text] {
+        border: none;
+        background-color: $grey2Color;
+        color: $grey-heading-color;
+        width: 140px;
+        
+
+        font-weight: weight(regular);
+        font-size: font-size(normal);
+        font-family: font-family(text);
+    }
+}

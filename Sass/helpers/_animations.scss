@@ -2,7 +2,7 @@
 
 @import "../helpers/variable";
 
-
+$fade-in-delay: 650ms;
 
 @keyframes heart {
     from {opacity: 17%;}
@@ -26,7 +26,7 @@
  
          &:nth-of-type(#{$i}) {
              
-             animation-delay: $i * 650ms;
+             animation-delay: $i * $fade-in-delay;
          }
      }
  }

@@ -1,12 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap");
+
 .fa {
   font-family: var(--fa-style-family, "Font Awesome 6 Free");
   font-weight: var(--fa-style, 900);
@@ -774,4 +766,4 @@ header {
   transition: ease-in 3s;
   opacity: 0;
   animation-delay: 3s;
-}/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=homepage.css.map */

@@ -10,12 +10,12 @@
 @use    "./layouts/footer"; 
 
 
-@import "./helpers/variable";
-@import "./helpers/font-style";
-@import "./helpers/mixins";
+@use "./helpers/variable";
+@use "./helpers/font-style";
+@use "./helpers/mixins";
 
-@import "./components/like-button";
-@import "./components/loader";
+@use "./components/like-button";
+@use "./components/loader";
 
 
 

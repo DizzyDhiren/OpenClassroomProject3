@@ -12,8 +12,9 @@
      border-radius: 50%;
      display: inline-block;
      box-sizing: border-box;
-     animation: rotation 1s linear 3 backwards;
+     animation: rotation 1s linear 1.5 backwards;
      opacity: 0;
+     
      }
  
      .loading-screen{
@@ -22,11 +23,12 @@
          justify-content: center;
          left: auto;
          top: 500px;
+         
      }
 
      #index-main-container{ 
-        animation: appear 3s linear 1 forwards;
-        transition: ease-in 3s;
+        animation: appear 1.5s linear 1 forwards;
+        transition: ease-in 2s;
         opacity: 0;
-        animation-delay: 3s;
+        animation-delay: 1.5s;
     }

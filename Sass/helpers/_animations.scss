@@ -33,7 +33,7 @@ $fade-in-delay: 650ms;
 
 
  @mixin btn-hover{
-    //filter: brightness(115%) saturate(85%); 
+    
     background: $btn-hover-color;
     box-shadow: $btn-hover-shadow;
  }

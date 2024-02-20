@@ -11,7 +11,7 @@
 
 
 $ohmyfood-icons: (
-  "heart": map.get($fa-icons, "heart"),
+  "heart": map-get($fa-icons, "heart"),
   "utensils": map-get($fa-icons, "utensils" ),
   "handshake": map-get($fa-icons, "handshake" ),
   "location-dot": map-get($fa-icons, "location-dot" ),
